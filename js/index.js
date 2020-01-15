@@ -3,7 +3,7 @@ const sendBtn = document.querySelector('#sendBtn');
 const messageIn = document.querySelector('#messageIn');
 const messageOut = document.querySelector('#messageOut');
 
-//Event function
+//Event listenser and function
 sendBtn.addEventListener('click', passMsg);
 function passMsg(content){
         content= messageIn.value;
